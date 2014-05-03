@@ -1,7 +1,7 @@
 package org.codetrials.examples.python;
 
 import org.codetrials.bundle.Task;
-import org.codetrials.bundle.engines.BundleEngine;
+import org.codetrials.bundle.engines.PythonEngine;
 import org.codetrials.bundle.helpers.SimpleBundleContainer;
 import org.codetrials.bundle.helpers.tasks.SandboxTask;
 
@@ -10,8 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PythonSandboxBundle extends SimpleBundleContainer {
-    protected PythonSandboxBundle(BundleEngine engine) {
-        super(engine);
+    
+    public PythonSandboxBundle() {
+        super(new PythonEngine());
     }
 
     @Override
