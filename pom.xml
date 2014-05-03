@@ -23,7 +23,7 @@
                             <addClasspath>true</addClasspath>
                         </manifest>
                         <manifestEntries>
-                            <Bundle>org.codetrials.examples.python.PythonSanboxBundle</Bundle>
+                            <Bundle>org.codetrials.examples.python.PythonSandboxBundle</Bundle>
                         </manifestEntries>
                     </archive>
                 </configuration>
